@@ -1,0 +1,38 @@
+#mainpage-heading1{
+    color: blue;
+    background-color: aqua;
+    text-align:center;
+    border: 2px solid black;
+}
+#mainpage-heading2{
+    color:brown;
+
+}
+.child{
+    float:left;
+    padding-right: 20px;
+}
+h4{
+   color:chocolate;
+   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+
+}
+u{
+    text-decoration:underline;
+}
+
+#text{
+    border: 2px solid red;
+    display:block;
+    line-height: 2;
+
+}
+
+
+
+#sectionpage-heading1{
+    font-family: fantasy;
+}
+#sectionpage-heading2{
+    color:cadetblue;
+}
