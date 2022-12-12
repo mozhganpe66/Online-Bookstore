@@ -8,7 +8,7 @@ function Regester(first_Name, Last_Name, DateOfBirth, Address, PostalCode, City,
     
     console.log("You are regestered succussfully");
 }
-var regestraionForm= ['Mozhgan', 'Pourabedin', '27.11.1987', 'Sørengkaia', '0194', 'Oslo', 'Norway', 'mozhganp', '123', '123'];
+var regestraionForm= ['Eva', 'Jakobson', '15.01.2000', 'Lamberseteret', '0148', 'Oslo', 'Norway', 'EvaJ', '123', '123'];
 var regestrationAttributes= ['First name:', 'Last name:', 'Date of Birth:', 'Address:', 'Postal code:', 'City:','Countary:', 'Username:', 'Password:', 'verify Password:'];
 Regester(regestraionForm);
 
@@ -22,7 +22,7 @@ function Login(Username, Password){
         console.log("You are logged in successfully");
 }
 
-var loginCredentials= ['mozhganp', '123']
+var loginCredentials= ['EvaJ', '123']
 var loginAttributes= ['Username:', 'Password:'];
 Login(loginCredentials);
 
@@ -56,14 +56,14 @@ function UserA_Buy_BookB(Username, BookName){
 
 
 var BuyMore= 'true'
-UserA_Buy_BookB("EmmaF","Hva er det jeg hører");
-UserA_Buy_BookB("mozhganp", "Computer Security");
-UserA_Buy_BookB("LeonF", "brann Alarm");
+UserA_Buy_BookB("EmilyK","Hva er det jeg hører");
+UserA_Buy_BookB("EvaJ", "Computer Security");
+UserA_Buy_BookB("LiamR", "brann Alarm");
 // which books you have in stock
 function BooksInStock(bookName, count){
  var bookName;
  var count;
  console.log("Print the list of books we have in stock with their number :", bookName, count)
 }
- BooksInStock(["It managament, 5"], ["Computer security, 4"]);
+ BooksInStock(["Front End Development, 5"], ["Computer security, 4"]);
  
